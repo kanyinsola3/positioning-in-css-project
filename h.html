@@ -1,0 +1,73 @@
+<html>
+ <head>
+  <style>
+div{
+  height:50px;
+  width:200px;
+  background-color: yellow;
+ border: 3px solid green ;
+ top:30px;
+ left:30px;
+}
+div.fixed{
+ position:fixed;
+    height:50px;
+  width:200px;
+  background-color: rgb(6, 6, 214);
+ border: 3px solid rgb(228, 21, 247);
+ top:30px;
+ left:30px;
+}
+div.rel{
+  position:relative;
+    height:50px;
+  width:200px;
+  background-color: rgb(11, 214, 146);
+ border: 3px solid purple
+ top:30px;
+ left:100px;
+} 
+div.abs{
+  position:absolute
+    height: 50px;
+    width:200px;
+  background-color:pink;
+ border: 3px solid orange;
+ top:30px;
+ left:50px;
+}
+div.stk{
+  position:sticky;
+    height:50px;
+  width:200px;
+  background-color: rgb(224, 14, 14);
+ border: 3px solid rgb(177, 171, 87);
+ top:50px;
+ left:50px;
+}
+ 
+ </style>
+</head>
+<body>
+<div>
+    Div with no position
+</div>
+<div class="fixed">
+    Div with fixed position
+</div>
+<div class="rel">
+    Div with relative position
+    <div class="abs">
+        Div with absolute position
+     </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="stk">
+        Div with sticky position
+     </div>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
